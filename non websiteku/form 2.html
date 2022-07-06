@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Daftar Sekarang Juga!</h1>
+    </header>
+    <br>
+    <form action="proses.php" method="get">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <p>
+                <label>Username:</label>
+                <input type="text" name="username" placeholder="input username..">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="text" name="email" placeholder="input your email..">
+            </p>
+            <p>
+                <label>Mobile Number:</label>
+                <input type="text" name="num_phone" placeholder="input number..">
+            </p>
+            <p>
+                <div>
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="L" value="pria">Laki-laki
+                <input type="radio" name="gender" id="P" value="perempuan">Perempuan
+                </div>
+            </p>
+            <p>
+                <label><input type="submit" name="submit" value="Sign Up"></label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Inform</legend>
+        </fieldset>
+    </form>
+</body>
+</html>
